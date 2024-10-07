@@ -17,7 +17,7 @@ int main()
 	Vec3 v3{1, 2, 3};
 	Vec3 v4 = {1, 2, 3};
 
-	auto v5 = Vec3{};
-	auto v6 = Vec3(1, 2, 3);
-	auto v7 = Vec3{1, 2, 3};
+	// auto v5 = Vec3{};
+	// auto v6 = Vec3(1, 2, 3);
+	// auto v7 = Vec3{1, 2, 3};
 }

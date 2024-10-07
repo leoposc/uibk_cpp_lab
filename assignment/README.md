@@ -15,34 +15,35 @@ For the provided specifications the recommended team size is 3.
 You are allowed to use:
 - C++ standard library (C++17 standard)
 - C standard library (as fallback)
-- [Boost](https://www.boost.org/)
+- [Boost](https://www.boost.org/) -> diverse helper functions
 - [SDL](https://www.libsdl.org/)
-- [GLFW](https://www.glfw.org/)
-- [GLM](https://glm.g-truc.net/)
-- [SFML](https://www.sfml-dev.org/)
-- [Vulkan](https://www.khronos.org/vulkan/) / [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp)
-- [Qt](https://www.qt.io/)
-- [ImGui](https://github.com/ocornut/imgui)
-- [ncurses](https://invisible-island.net/ncurses/)
-- [OpenAL](https://openal.org/)
-- [nlohmann/json](https://github.com/nlohmann/json) / [RapidJSON](https://rapidjson.org/)
-- [RapidYAML](https://github.com/biojppm/rapidyaml)
-- [Assimp](https://www.assimp.org/)
-- [stb-image](https://github.com/nothings/stb/blob/master/stb_image.h)
-- [Ogg](https://xiph.org/ogg/) / [Vorbis](https://xiph.org/vorbis/) / [Opus](https://opus-codec.org/)
-- [Tiled](https://www.mapeditor.org/) / [tileson](https://github.com/SSBMTonberry/tileson)
-- [OpenSSL](https://www.openssl.org/)
-- [SQLite](https://www.sqlite.org/)
-- [Catch2](https://github.com/DigitalInBlue/Celero)
-- [Google Test](https://github.com/google/googletest)
-- [Google Benchmark](https://github.com/google/benchmark)
-- [spdlog](https://github.com/gabime/spdlog) / [plog](https://github.com/SergiusTheBest/plog)
-- [fmt](https://github.com/fmtlib/fmt)
-- [AngelScript](https://www.angelcode.com/angelscript/)
-- [Lua](http://www.lua.org/) / [sol2](https://github.com/ThePhD/sol2)
-- [cereal](https://github.com/USCiLab/cereal)
-- [protobuf](https://github.com/protocolbuffers/protobuf)
-- [Font Chef](https://github.com/mobius3/font-chef)
+-> low level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL and Direct3D
+- [GLFW](https://www.glfw.org/) -> multi-plattform lib for OPenGL (ES), simple API for creating windows, contexts and surfaces, receiving input and events. Supports Windwos, macOS, Wayland and X11
+- [GLM](https://glm.g-truc.net/) -> OpenGL Mathematics: math lib for graphics software
+- [SFML](https://www.sfml-dev.org/) -> simpole fast mutltimedia lib: interface for system, window, graphics, audio and network
+- [Vulkan](https://www.khronos.org/vulkan/) / [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp) -> adress shortcomings of OpenGL, more control over GPU, CPU
+- [Qt](https://www.qt.io/) -> used for developing graphical user interfaces, classified as widget toolkit
+- [ImGui](https://github.com/ocornut/imgui) -> fast iteration, ease of use to program content creation tools and visualization/ debug tools -> easy grahics, favors simplicity and productivity, but lacks some features of high-level libs
+- [ncurses](https://invisible-island.net/ncurses/) -> used for test-based user interfaces; toolkit for developing GUI-like applications which runs under a terminal emulator
+- [OpenAL](https://openal.org/) -> cross-platform for 3D audio API
+- [nlohmann/json](https://github.com/nlohmann/json) / [RapidJSON](https://rapidjson.org/) -> data format handling
+- [RapidYAML](https://github.com/biojppm/rapidyaml) -> parse & emit YAML
+- [Assimp](https://www.assimp.org/) -> load various 3D file formats into shared, in-memory imediate format
+- [stb-image](https://github.com/nothings/stb/blob/master/stb_image.h) -> ? 
+- [Ogg](https://xiph.org/ogg/) / [Vorbis](https://xiph.org/vorbis/) / [Opus](https://opus-codec.org/) -> general-purpose compressed audio format for mid to gigh quality audio and music
+- [Tiled](https://www.mapeditor.org/) / [tileson](https://github.com/SSBMTonberry/tileson) -> 2D map editor
+- [OpenSSL](https://www.openssl.org/) -> security tool
+- [SQLite](https://www.sqlite.org/) -> c-language lib
+- [Catch2](https://github.com/DigitalInBlue/Celero) -> benchmarking 
+- [Google Test](https://github.com/google/googletest) -> testing
+- [Google Benchmark](https://github.com/google/benchmark) -> benchmarking
+- [spdlog](https://github.com/gabime/spdlog) / [plog](https://github.com/SergiusTheBest/plog) -> very fast logger
+- [fmt](https://github.com/fmtlib/fmt) -> formatter/ printer (also very fast)
+- [AngelScript](https://www.angelcode.com/angelscript/) -> scripting language (like lua)
+- [Lua](http://www.lua.org/) / [sol2](https://github.com/ThePhD/sol2) lightweight programming language, can extend C++ and other
+- [cereal](https://github.com/USCiLab/cereal) -> serilization (convert different data typed)
+- [protobuf](https://github.com/protocolbuffers/protobuf) -> data serialization
+- [Font Chef](https://github.com/mobius3/font-chef) -> font renderer - character atlas
 
 Feel free to ask me about other libraries / tools.
 
